@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Timothy J. Mahoney About Me Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link href="https://fonts.googleapis.com/css?family=Black+And+White+Picture" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/nav-style.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" media="print" href="print.css">
+</head>
+
+
+<body>
+    <a href="#main" class="skip">Skip to main</a>
+    <header id="header" class="header">
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i id="symbol-toggle" class="fas fa-bars"></i>
+            </span>
+            <a href="#header" class="logo">
+                <div class="logo-container">
+                    <img class="logo" src="images/TMFavicon.svg" alt="Company Logo">
+                    <h1 class="page-title">Timothy J. Mahoney Portfolio Page</h1>
+                </div>
+            </a>
+            <ul class="main-nav" id="js-menu">
+                <li>
+                    <a href="#main" class="nav-links">Main</a>
+                </li>
+                <li>
+                    <a href="#about-me" class="nav-links">About Me</a>
+                </li>
+                <li>
+                    <a href="#pictures" class="nav-links">My Photos</a>
+                </li>
+                <li>
+                    <a href="#story" class="nav-links">A Story</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-links">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- end of header -->
+    <!-- start of main content -->
+    <!--    why put tabindex of -1 on skiplink target -  https://axesslab.com/skip-links/ -->
+    <main id="main" tabindex="-1" class="main">
+
+        <!-- start of bio section -->
+
+        <!--<div class="content">-->
+        <!--  <img class="logo main-col" src="images/logo-1913689.svg" alt="Company Logo">
+                <div class="page-title">Web Dev I</div>-->
+
+
+        <section class="hero">
+            <div class="content">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/Universal-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/Universal-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/Universal-small.jpg">
+                    <img class="my-picture" src="images/Universal-xsmall.jpg" alt="This is a picture of me">
+                </picture>
+                <p class="my-name">Timothy J. Mahoney</p>
+                <p class="my-location">Middlesex, NJ</p>
+            </div>
+        </section>
+    </main>
+        <section id="about-me" class="about-me">
+            <div class="about-content">
+                <p class="My Bio">My Bio</p>
+                <p class="my-info">I'd like to spend some time working at a small start up and help them build their brand name through a well designed site then move on to large company to manage a team of developers where we work with cutting edge tech.
+
+                    I have worked with computers for over 20 years in hardware testing, system building, sales, & quality assurance.
+
+                    Most recently I've been a chef at high end, farm-to-table restaurants and have worked in corporate events planning menus for executive parties. After returning to college I am working towards a degree in computer programming so that I can return to the tech industry.</p>
+            </div>
+        </section>
+        <!-- end of bio section -->
+        <!-- start of photo gallery -->
+        <section id="pictures" class="gallery">
+            <br class="mobile-first">
+            <figure class="figure1">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/butterfly-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/butterfly-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/butterfly-small.jpg">
+                    <img class="picture" src="images/butterfly-xsmall.jpg" alt="Finn and a butterfly">
+                </picture>
+                <figcaption class="Finn">Finn catching a butterfly</figcaption>
+            </figure>
+            <hr class="mobile-first">
+            <figure class="figure2">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/shades-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/shades-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/shades-small.jpg">
+                    <img class="picture" src="images/shades-xsmall.jpg" alt="Finn in cool sunglasses">
+                </picture>
+                <figcaption class="Finn">Finn looking cool in new shades</figcaption>
+            </figure>
+            <hr class="mobile-first">
+            <figure class="figure3">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/camo-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/camo-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/camo-small.jpg">
+                    <img class="picture" src="images/camo-xsmall.jpg" alt="Finn readying for a nerf war">
+                </picture>
+                <figcaption class="Finn">Finn getting ready for his nerf war b-day party</figcaption>
+            </figure>
+            <br class="mobile-first">
+        </section>
+        <!-- end of photo gallery -->
+        <hr class="mobile-first">
+        <!-- start of Frameworks Blog -->
+        <div class="img-bx">
+            <img src="images/camo-small.jpg" alt="Finn getting ready for nerf war">
+            <img src="http://cdn.ad.moumou.co.kr/system/etc/noise.png" alt="Thanos wipe">
+        </div>
+        <article id="story" class="story">
+            <h1>Frameworks</h1>
+            <div class="story-body">
+                
+                    <p>What are web frameworks? Frameworks are the easiest & most convenient way to build a clean, well formatted web site. Everything from a basic blog to a complex site rich with applications. Web Frameworks help to automate the overhead used with many basic activities in development such as providing libraries used in accessing databases, & creating templates. It also aims to aid in code reuse which is basically exactly what its name implies, taking bit of code that have already been written such as templates, resources, & functions then reusing them in other areas of the code. The reasoning behind this is that efficiency is key in programming but more importantly it explains that code used at one time, should be used in the construction of other programs at other times, destroying the idea of one time use.</p>
+                    <p>There’s an enormous amount of in depth information about frameworks that can found online but I won’t bore you with it and frankly it would take days or even weeks to get through all of it. That being said though you certainly need to do your homework before choosing what you want out of your framework, likely based on what it is you’re building and for what purpose. Honestly what I feel is the best option when looking to delve into frameworks is to search local jobs for web developer and see what qualifications they’re looking for. Go on Indeed, Glassdoor to see what the positions & companies you’re interested in are using in programming.</p>
+
+                    <p>Also check into local businesses, use dev tools and snoop around a bit on their site to get an idea of what languages they’re using. I’ve also found that frameworks are almost location based in terms of popularity. The West coast appears to be in love with Ruby On Rails and Django as is the Chicago area while the East coast, at least NYC area, tends to lean more towards Angular, Node, Bootstrap, and React. Users like myself, fresh college students, need to consider where they would like to work because you’re not likely to find any hot new programming language in a bank situation simply for the fact that they need something stable that has a years long proven track record. On the other hand a startup company is going to be using some of the hottest new languages and pushing their programmers to be some of the first on the scene with the knowledge of such tech.</p>
+
+
+
+                    <!-- end of Frameworks Blog -->
+            </div>
+        </article>
+                <!-- end of main content -->
+                <!-- start of contact form -->
+
+                <section id="contact" class="form-container">
+                    <h1>Contact Info</h1>
+                    <form class="contact" method="POST" action="https://formspree.io/G00280483@stu.raritanval.edu">
+                        <fieldset>
+                            <legend>Email</legend>
+                            <input type="email" name="email">
+                            <br>
+                            <label for="message">Message</label>
+                            <br>
+                            <textarea name="message" id="message"></textarea>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Reply</legend>
+                            <input type="radio" name="yes-no" value="Yes" checked> Yes<br>
+                            <input type="radio" name=yes-no value="No"> No<br>
+                        </fieldset>
+                        <br>
+                        <br>
+                        <button type="submit">Send<br></button>
+                    </form>
+                </section>
+                <!-- end of contact form -->
+                <!-- start of footer -->
+                <footer>
+                    <br class="mobile-first"><br class="mobile-first">
+                    <p>Tim Mahoney &#169;</p>
+                </footer>
+                <div class="back-to-top">
+                    <a href="#">Back To Top</a>
+                </div>
+                <!-- end of footer -->
+                <br class="mobile-first"><br class="mobile-first">
+                <!-- start of javascript for nav toggle -->
+                <script>
+                    let mainNav = document.getElementById('js-menu');
+                    let navBarToggle = document.getElementById('js-navbar-toggle');
+                    let symbolToggle = document.getElementById('symbol-toggle');
+
+                    navBarToggle.addEventListener('click', function() {
+                        mainNav.classList.toggle('active');
+                        if (symbolToggle.classList.contains('fa-bars')) {
+                            symbolToggle.classList.remove('fa-bars');
+                            symbolToggle.classList.add('fa-times');
+                        } else {
+                            symbolToggle.classList.remove('fa-times');
+                            symbolToggle.classList.add('fa-bars');
+                        }
+                    });
+
+                </script>
+                <!-- end of javascript for nav toggle -->
+
+
+
+
+</body>
+
+</html>
